@@ -4,7 +4,7 @@ This project implements a multilabel classification model for hate speech detect
 
 The project uses a multilabel BERT-based classifier along with Data Augmentation techniques to improve the model's generalization. Additionally, it explores hyperparameter tuning (learning rate, batch size) to achieve optimal performance. The creative technique used here includes Easy Data Augmenter from the TextAttack library to enhance the training data, allowing the model to better handle variations in the text.
 
-**Project Objectives:**
+# Project Objectives:
   **Pretrained Models:**
   - The primary model used is bert-base-uncased, implemented using BertForSequenceClassification for sequence classification with 9 output labels.
   - Additionally, the project incorporates two variations of the ALBERT model (albert-base-v1 and albert-base-v2) for comparison and ensembling techniques.
