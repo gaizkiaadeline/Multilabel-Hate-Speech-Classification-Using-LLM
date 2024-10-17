@@ -22,6 +22,7 @@ Hate Speech (HS)
 - Analyze these metrics to understand the model's strengths and areas for improvement.
 
   **Creative Techniques:**
+  
 Implement innovative techniques, such as customizing the BERT architecture for multilabel classification and adjusting the loss function to handle imbalanced data. These techniques aim to improve the model's ability to differentiate between multiple hate speech labels simultaneously.
 
 **Key Features:**
