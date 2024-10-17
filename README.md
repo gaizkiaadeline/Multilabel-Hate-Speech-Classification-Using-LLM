@@ -1,4 +1,4 @@
-# Multilabel Hate Speech Classification on Social Media Using Large Language Models
+# Multilabel Hate Speech Classification on Twitter Using Large Language Models
 This project implements a multilabel classification model for hate speech detection using BERT and ALBERT pretrained models. The task is to classify social media posts into multiple labels that indicate hate speech (HS), abusive content, and specific types of hate speech (e.g., individual, group, race, relation, physical, gender, etc.).
 
 
