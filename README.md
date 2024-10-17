@@ -6,11 +6,11 @@ The project uses a multilabel BERT-based classifier along with Data Augmentation
 
 # Project Objectives:
   **Pretrained Models:**
-  - The primary model used is bert-base-uncased, implemented using BertForSequenceClassification for sequence classification with 9 output labels.
-  - Additionally, the project incorporates two variations of the ALBERT model (albert-base-v1 and albert-base-v2) for comparison and ensembling techniques.
+  - The primary model used is ```bert-base-uncased```, implemented using ```BertForSequenceClassification``` for sequence classification with 9 output labels.
+  - Additionally, the project incorporates two variations of the ALBERT model (```albert-base-v1``` and ```albert-base-v2```) for comparison and ensembling techniques.
 
   **Data Augmentation:**
-  - The EasyDataAugmenter from TextAttack is applied to create augmented versions of the text data, improving the robustness of the classifier by exposing it to a wider range of linguistic variations.
+  - The ```EasyDataAugmenter``` from ```TextAttack``` is applied to create augmented versions of the text data, improving the robustness of the classifier by exposing it to a wider range of linguistic variations.
   
   **Training and Evaluation:** 
   - Models are trained using the Trainer API from Hugging Face's transformers library, with evaluation metrics including accuracy, precision, recall, and F1-score.
