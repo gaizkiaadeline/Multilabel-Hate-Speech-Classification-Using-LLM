@@ -29,5 +29,6 @@ The project uses a multilabel BERT-based classifier along with Data Augmentation
 
 This project implements a multilabel classification model for detecting hate speech on social media using the pretrained BERT and ALBERT model. The project includes hyperparameter tuning, creative model architecture adjustments, and evaluation with metrics like accuracy, precision, recall, and F1-score.
 
-![image](https://github.com/user-attachments/assets/6afefb0e-6389-406d-a1e0-8fa064c70af4)
+![image](https://github.com/user-attachments/assets/9a6d1d5e-f6fd-47c8-9cda-b8a19f00f4f4)
+
 
